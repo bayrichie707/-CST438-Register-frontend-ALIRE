@@ -24,7 +24,7 @@ function AddStudent(props) {
 
   const handleClose = () => {
     setOpen(false);
-    props.onClose();
+    // props.onClose();
   };
 
   const handleChange = (event) => {
